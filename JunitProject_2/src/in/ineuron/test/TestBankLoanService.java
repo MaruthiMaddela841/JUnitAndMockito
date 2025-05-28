@@ -15,6 +15,7 @@ public class TestBankLoanService {
 		BankLoanService service = new BankLoanService();
 		float actualOutput = service.calculateSimpleInterest(100000, 2, 12);
 		float expectedOutupt =24000.0f;
+		
 		//Method checking for test-case and generating the output
 		assertEquals(expectedOutupt, actualOutput);
 	}
